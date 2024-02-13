@@ -37,6 +37,8 @@ class Student{
         System.out.println("how are you " + name);
     }
     
+    // passing value of one constructor to other constructor 
+
     Student  (Student other) {
         this.name = other.name;
         this.rno = other.rno;
@@ -50,6 +52,8 @@ class Student{
    
 
     // Creating another Constructor with no parameters inside
+    // this can lead to constructor overloading as same constructor is mentoined above
+    
     // Student(){
     //     this.rno=5;
     //     this.name="Ram";
